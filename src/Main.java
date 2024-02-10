@@ -80,8 +80,8 @@ enum Roma {
     Roma (int num) {
         this.num = num;
     }
+
     public int getConvertToArabian() {
         return num;
-
     }
 }
