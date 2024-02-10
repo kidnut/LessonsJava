@@ -82,5 +82,6 @@ enum Roma {
     }
     public int getConvertToArabian() {
         return num;
+
     }
 }
