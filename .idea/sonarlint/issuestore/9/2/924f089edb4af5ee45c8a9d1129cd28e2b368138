@@ -1,0 +1,52 @@
+
+[	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(‡öÒ
+`	java:S112"FDefine and throw a dedicated exception instead of using a generic one.(¾ùÆòüÿÿÿÿ
+Z	java:S112)"FDefine and throw a dedicated exception instead of using a generic one.(äèd
+Z	java:S112/"FDefine and throw a dedicated exception instead of using a generic one.(ëô³y
+J
+java:S1066."/Merge this if statement with the enclosing one.(îÓüéüÿÿÿÿ
+e
+java:S1104O"OMake num a static final constant or non-public and provide accessors if needed.(æßÜÈ
+0
+java:S1220""Move this file to a named package.
+_
+java:S2259,"D"NullPointerException" will be thrown when invoking method "calc()".(Ì±Ñóÿÿÿÿÿ
+e
+java:S36555"PCall "Optional#isPresent()" or "!Optional#isEmpty()" before accessing the value.(Ò¸Ó:
+R
+java:S25897"7Remove this expression which always evaluates to "true"(…ç²øÿÿÿÿ
+M
+java:S25894"7Remove this expression which always evaluates to "true"(ÃÙÃà
+M
+java:S2589-"7Remove this expression which always evaluates to "true"(ÃÙÃà
+R
+java:S25897"7Remove this expression which always evaluates to "true"(…ç²øÿÿÿÿ
+m
+java:S3776"RRefactor this method to reduce its Cognitive Complexity from 17 to the 15 allowed.(ÙØ¤Şıÿÿÿÿ
+E	java:S106"+Replace this use of System.out by a logger.(µ‹’·øÿÿÿÿ
+c
+java:S5361	"HReplace this call to "replaceAll()" by a call to the "replace()" method.(¨¤Âºùÿÿÿÿ
+=
+java:S1125""'Remove the unnecessary boolean literal.(ÃÙÃà
+=
+java:S1125""'Remove the unnecessary boolean literal.(ÃÙÃà
+B
+java:S1125%"'Remove the unnecessary boolean literal.(…ç²øÿÿÿÿ
+B
+java:S1125%"'Remove the unnecessary boolean literal.(…ç²øÿÿÿÿ
+=
+java:S1125-"'Remove the unnecessary boolean literal.(ÃÙÃà
+=
+java:S1125-"'Remove the unnecessary boolean literal.(ÃÙÃà
+=
+java:S11254"'Remove the unnecessary boolean literal.(ÃÙÃà
+=
+java:S11254"'Remove the unnecessary boolean literal.(ÃÙÃà
+@	java:S1066"+Replace this use of System.out by a logger.(ë€ã
+B
+java:S11257"'Remove the unnecessary boolean literal.(…ç²øÿÿÿÿ
+B
+java:S11257"'Remove the unnecessary boolean literal.(…ç²øÿÿÿÿ
+E	java:S1068"+Replace this use of System.out by a logger.(ß«õ»úÿÿÿÿ
+9
+java:S3066O"#Lower the visibility of this field.(æßÜÈ
