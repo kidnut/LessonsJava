@@ -9,7 +9,6 @@ public class Main {
         String input = console.nextLine();
         input = input.replaceAll(" ", "");
         System.out.println(calc(input));
-
     }
     public static String calc(String input) throws Exception {
         String result = null;
