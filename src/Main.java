@@ -1,7 +1,6 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-import static java.lang.System.exit;
 
 public class Main {
     public static void main(String[] args) throws Exception{
@@ -9,6 +8,11 @@ public class Main {
         System.out.println("Введите выражение: ");
         String input = console.nextLine();
         input = input.replaceAll(" ", "");
+        System.out.println(calc(input));
+
+    }
+    public static String calc(String input) throws Exception {
+        String result = null;
         int num1 = 0;
         int num2 = 0;
         String operation;
@@ -47,7 +51,7 @@ public class Main {
             throw new Exception ("Значения операндов больше 10");
         }
 
-        resultToArabian = calc(num1, num2, operation);
+        resultToArabian = solution(num1, num2, operation);
         if (exists0 == true && exists1 == true) {
             if (resultToArabian < 0) {
                 throw new Exception("В римской системе нет отрицательных чисел");
@@ -57,12 +61,12 @@ public class Main {
 
         if (exists0 == true && exists1 == true) {
             resultToRoman = Arrays.stream(Roma.values()).filter(x->x.num == resultToArabian).findFirst().get().name();
-            System.out.println(resultToRoman);
+            result = resultToRoman;
         } else if (exists0 == false && exists1 == false) {
-            System.out.println(resultToArabian);
+            result = Integer.toString(resultToArabian);
         }
+        return result;
     }
-
     static String detectOperation(String input) {
         if (input.contains("+")) return "+";
         else if (input.contains("-")) return "-";
@@ -71,7 +75,7 @@ public class Main {
         else return null;
     }
 
-    static int calc(int num1, int num2, String operation) {
+    static int solution (int num1, int num2, String operation) {
         if (operation.equals("+")) return num1 + num2;
         else if (operation.equals("-")) return num1 - num2;
         else if (operation.equals("*")) return num1 * num2;
